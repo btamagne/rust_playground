@@ -2,7 +2,7 @@
 
 ## From "The Book"
 
-These little mini project all come from [The Rust Programming Language Book](https://doc.rust-lang.org/stable/book/), hereafter referred to as "The Book".
+These little mini projects all come from [The Rust Programming Language Book](https://doc.rust-lang.org/stable/book/), hereafter referred to as "The Book".
 
 ### hello_cargo
 
