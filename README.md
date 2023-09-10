@@ -27,3 +27,9 @@ Source: [The Book: 3.1 Variables and Mutability](https://doc.rust-lang.org/book/
 Playing around with various capabilities with functions and learning the rules that govern them.
 
 Source: [The Book: 3.3 Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
+
+### ownership
+
+Learning how Rust approaches lifetime ownership, move semantics by-default, and borrowing by reference.
+
+Source: [The Book: 4 Understanding Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
