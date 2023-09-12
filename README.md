@@ -33,3 +33,15 @@ Source: [The Book: 3.3 Functions](https://doc.rust-lang.org/book/ch03-03-how-fun
 Learning how Rust approaches lifetime ownership, move semantics by-default, and borrowing by reference.
 
 Source: [The Book: 4 Understanding Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
+
+### structs
+
+Playing around with various capabilities with structs and learning the rules that govern them.
+
+Source: [The Book: 5 Using Structs to Structure Related Data](https://doc.rust-lang.org/book/ch05-00-structs.html)
+
+### rectangles
+
+Example program to learn how to implement structs, derive traits, and use the dgb! macro.
+
+Source: [The Book: 5.2 An Example Program Using Structs](https://doc.rust-lang.org/book/ch05-02-example-structs.html)
