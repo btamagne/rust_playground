@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: cd to functions
-      run: cd functions
+      run: cd ${{github.workspace}}/functions
     - name: Build functions
       run: cargo build --verbose
     - name: Run tests
