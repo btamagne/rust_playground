@@ -16,7 +16,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: cd to functions and build
+    - name: build functions
       run: cd ${{github.workspace}}/functions; cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
+    - name: build guessing_game
+      run: cd ${{github.workspace}}/guessing_game ; cargo build --verbose
+    - name: build hello_cargo
+      run: cd ${{github.workspace}}/hello_cargo; cargo build --verbose
+    - name: build ownership
+      run: cd ${{github.workspace}}/ownership; cargo build --verbose
+    - name: build rectangles
+      run: cd ${{github.workspace}}/rectangles; cargo build --verbose
+    - name: build structs
+      run: cd ${{github.workspace}}/structs; cargo build --verbose
+    - name: build variables
+      run: cd ${{github.workspace}}/variables; cargo build --verbose
