@@ -10,6 +10,20 @@ fn main() {
     let amount = value_in_cents(my_coin);
 
     println!("my_coin is worth: {amount}");
+
+    let coin0 = Coin::Penny;
+    let coin1 = Coin::Nickel;
+    let coin2 = Coin::Dime;
+    let coin3 = Coin::Quarter(UsState::Alaska);
+
+    let mut non_quarter_count = 0;
+
+    count_non_quarters(coin0, &mut non_quarter_count);
+    count_non_quarters(coin1, &mut non_quarter_count);
+    count_non_quarters(coin2, &mut non_quarter_count);
+    count_non_quarters(coin3, &mut non_quarter_count);
+
+    println!("non_quarter_count: {non_quarter_count}");
 }
 
 enum IpAddrKind {
@@ -53,6 +67,14 @@ fn value_in_cents(coin: Coin) -> u8 {
             println!("State quarter from {:?}!", state);
             25
         }
+    }
+}
+
+fn count_non_quarters(coin: Coin, count: &mut i32) {
+    if let Coin::Quarter(state) = coin {
+        println!("State quarter from {:?}!", state);
+    } else {
+        *count += 1;
     }
 }
 
