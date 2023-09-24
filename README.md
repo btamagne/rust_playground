@@ -45,3 +45,9 @@ Source: [The Book: 5 Using Structs to Structure Related Data](https://doc.rust-l
 Example program to learn how to implement structs, derive traits, and use the dgb! macro.
 
 Source: [The Book: 5.2 An Example Program Using Structs](https://doc.rust-lang.org/book/ch05-02-example-structs.html)
+
+### enums
+
+Sandbox to learn how to use enums and use the allow(unused) outer attribute.
+
+Source: [The Book: 6 Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html)

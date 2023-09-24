@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: build enums
+      run: cd ${{github.workspace}}/enums; cargo build --verbose
     - name: build functions
       run: cd ${{github.workspace}}/functions; cargo build --verbose
     - name: build guessing_game
