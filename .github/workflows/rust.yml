@@ -1,4 +1,4 @@
-name: Rust
+name: Rust Book Examples
 
 on:
   push:
