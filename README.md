@@ -52,7 +52,7 @@ Sandbox to learn how to use enums and use the allow(unused) outer attribute.
 
 Source: [The Book: 6 Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html)
 
-### ToyWebServer
+### toy_web_server
 
 An actually useful program.
 

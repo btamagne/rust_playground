@@ -33,4 +33,4 @@ jobs:
     - name: build variables
       run: cd ${{github.workspace}}/variables; cargo build --verbose
     - name: build ToyWebServer
-      run: cd ${{github.workspace}}/ToyWebServer; cargo build --verbose
+      run: cd ${{github.workspace}}/toy_web_server; cargo build --verbose
