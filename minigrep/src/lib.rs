@@ -19,8 +19,6 @@ impl Config {
 
       let ignore_case = env::var("IGNORE_CASE").is_ok();
 
-      dbg!(ignore_case);
-
       Ok(Config {
          query,
          file_path,
