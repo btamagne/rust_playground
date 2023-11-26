@@ -32,8 +32,8 @@ jobs:
       run: cd ${{github.workspace}}/structs; cargo build --verbose
     - name: build variables
       run: cd ${{github.workspace}}/variables; cargo build --verbose
-    - name: build mingrep
-      run: cd ${{github.workspace}}/mingrep; cargo build --verbose
+    - name: build minigrep
+      run: cd ${{github.workspace}}/minigrep; cargo build --verbose
     - name: build concurrency
       run: cd ${{github.workspace}}/concurrency; cargo build --verbose
     - name: build ToyWebServer
