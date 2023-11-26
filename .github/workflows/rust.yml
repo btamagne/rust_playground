@@ -32,5 +32,7 @@ jobs:
       run: cd ${{github.workspace}}/structs; cargo build --verbose
     - name: build variables
       run: cd ${{github.workspace}}/variables; cargo build --verbose
+    - name: build concurrency
+      run: cd ${{github.workspace}}/concurrency; cargo build --verbose
     - name: build ToyWebServer
       run: cd ${{github.workspace}}/toy_web_server; cargo build --verbose
